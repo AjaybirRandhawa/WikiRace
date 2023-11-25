@@ -26,7 +26,7 @@ cd WikiRace
 Run the script with your desired start and end Wikipedia articles:
 
 ```bash
-python wiki_racing.py
+python wikirace_main.py
 ```
 Code Overview
 Link Grabber Function (link_grabber):
