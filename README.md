@@ -20,27 +20,23 @@ Run the Script:
 
 Open the terminal and navigate to the project directory:
 
-bash
-Copy code
-cd wiki-racing
+```bash
+cd WikiRace
+```
 Run the script with your desired start and end Wikipedia articles:
 
-bash
-Copy code
+```bash
 python wiki_racing.py
+```
 Code Overview
 Link Grabber Function (link_grabber):
+     Extracts and returns a sorted list of unique links from a given Wikipedia article. Ignores links in reference, external links, and certain special cases.
 
-Extracts and returns a sorted list of unique links from a given Wikipedia article.
-Ignores links in reference, external links, and certain special cases.
 BFS Algorithm Function (bfs):
+     Finds the shortest path between two Wikipedia articles using the breadth-first search algorithm. Utilizes the link grabber function to explore Wikipedia articles.
 
-Finds the shortest path between two Wikipedia articles using the breadth-first search algorithm.
-Utilizes the link grabber function to explore Wikipedia articles.
 Las Vegas Algorithm Function (las_vegas):
-
-Similar to BFS but with a modified algorithm that ensures a result is provided, even if it's a longer path and takes significantly longer.
-Useful for cases where BFS may take too long to find a path.
+     Similar to BFS but with a modified algorithm that ensures a result is provided, even if it's a longer path and takes significantly longer. Useful for cases where BFS may take too long to find a path.
 
 Example Usage
 
