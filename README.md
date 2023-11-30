@@ -1,7 +1,5 @@
 # WikiRace
-Finding a possible path between two different Wikipedia articles.
-
-## Wikipedia Racing with Python
+Finding a possible path between two different Wikipedia articles with Python.
 This Python script enables you to play Wikipedia Racing, a game where the objective is to find the shortest path between two Wikipedia articles. The script uses a breadth-first search algorithm to navigate through Wikipedia hyperlinks.
 
 How to Use
