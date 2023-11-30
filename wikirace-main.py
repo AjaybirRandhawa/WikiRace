@@ -97,7 +97,7 @@ def las_vegas(search_item, final_item, counter):
         search_item = links.pop(random.randrange(len(links)))
     return las_vegas(search_item, final_item, counter)
 
-search_item = 'Germany'
+search_item = 'Switzerland'
 final_item = 'Sunlight'
 
 #Printing results
